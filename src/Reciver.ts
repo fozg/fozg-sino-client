@@ -9,7 +9,7 @@ class Reciver {
 
     constructor(config?: IConfig) {
         this.config = { ...defaultConfig, ...config };
-        this.socket = io(this.config.serviceUrl, { path: this.config.path });
+        this.socket = io(this.config.serviceUrl, { path: this.config.path, transports: ["websocket"] });
         this.channels = [];
     }
 
