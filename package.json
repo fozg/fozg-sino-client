@@ -1,0 +1,33 @@
+{
+  "name": "@fozg/fozg-sino-client",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "version": "0.0.1",
+  "description": "Fozg Simple Notification client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fozg/fozg-sino-client.git"
+  },
+  "author": "Fozg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fozg/fozg-sino-client/issues"
+  },
+  "homepage": "https://github.com/fozg/fozg-sino-client#readme",
+  "dependencies": {
+    "@types/request": "^2.48.5",
+    "@types/socket.io-client": "^1.4.34",
+    "request": "^2.88.2",
+    "socket.io-client": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
