@@ -1,3 +1,3 @@
 import { Sender } from "../index";
 
-new Sender().send({ channel: "TWEET", message: "Hey!" })
+new Sender({ serviceUrl: "https://fozg.dev/notification" }).send({ channel: "DEV-CALC-ORIGIN-PRICE", message: "99" })
